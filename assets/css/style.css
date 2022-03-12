@@ -3,3 +3,66 @@
 body {
     background-color: #660099;
 }
+
+/* .container-fluid {
+    width: 80%;
+} */
+
+h1 {
+    color: #000;
+    font-size: 30px;
+    font-family: "Flavors", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+h2 {
+    color:#000;
+    font-size: 20px;
+    font-family: "Flavors", sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.instructions {
+    color: #000;
+    font-size: 30px;
+    font-family: "Fresca", sans-serif;
+    /* border: 3px solid #08b5c2 ; */
+    border-radius: 25%;
+    padding: 5px;
+}
+
+.game-stats {
+    color: #E0E1E4;
+    font-size: 15px;
+    font-family: "Fresca", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*----------------------------------------------------Hover*/
+a:hover {
+    color: #E0E1E4;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------Modal - courtesy of Bootstrap*/
+
+.modal-title {
+    color: #000;
+    font-family: "Flavors", sans-serif;
+    font-size: 40px;
+    width: 90%;
+    text-align: center;
+}
+
+.modal-body {
+    color: #000;
+    font-family: "Fresca", sans-serif;
+    font-size: 20px;
+}
